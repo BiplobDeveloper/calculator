@@ -31,22 +31,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     alert('please enter any Number');
     }
     });
-    
-    
-    /*dark_mode*/
-    let dark_mode_status = false;
-    dark_mode_btn.addEventListener('click', function(){
-    body.classList.toggle('dark_mode_active');
-    if (dark_mode_status == false) {
-    this.innerHTML = '<i class="fa fa-sun-o" aria-hidden="true"></i>';
-    dark_mode_status = true;
-    }else{
-    this.innerHTML = '<i class="fa fa-moon-o" aria-hidden="true"></i>';
-    dark_mode_status = false;
-    }
-    });
-    
-    
+
     /*clear all number*/
     clear.addEventListener('click', function(){
     result.innerHTML = "";

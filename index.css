@@ -1,11 +1,11 @@
 * {
     margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif
+    padding: 10;
+    font-family: 'poppins', sans-serif;
 }
 
 body {
-    min-height: 100vh;
+    min-height: 90vh;
     display: grid;
     place-items: center;
     background: rgba(18, 199, 190, 0.171)
@@ -31,11 +31,11 @@ body {
 }
 
 .display #result {
-    font-size: 2em
+    font-size: 3em
 }
 
 .buttons {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 #clear {
-    background: #FF8A65
+    background: #65ffbf
 }
 
 .dark_mode_btn {
@@ -75,27 +75,6 @@ body {
     background: none;
     border: none;
     outline: none
-}
-
-.dark_mode_active {
-    background: #1c1c25
-}
-
-.dark_mode_active button {
-    color: #ddd
-}
-
-.dark_mode_active #clear,
-#equalTo {
-    color: #000
-}
-
-.dark_mode_active #result {
-    color: #ddd
-}
-
-.dark_mode_active #history {
-    color: #ddd
 }
 
 #history {
